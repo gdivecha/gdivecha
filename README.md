@@ -1,4 +1,4 @@
-### Hi there 👋,
+### Hi there 👋
 #### Design & Development
 
 ![image_6487327](https://user-images.githubusercontent.com/91444858/165878548-c7976160-2387-40be-98aa-849b3c30e196.JPG)
