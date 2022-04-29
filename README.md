@@ -1,7 +1,7 @@
 ### Hi there 👋, Gaurav Divecha
 #### Design & Development
 
-![image](https://user-images.githubusercontent.com/91444858/165866009-452683ee-4b9b-4980-8a43-b0a7182427c9.png)
+![image_6483441](https://user-images.githubusercontent.com/91444858/165878449-6ba8de77-945e-4207-9e4b-0e19aba89cc7.JPG)
 
 I'm Gaurav Divecha and I am a Computer Engineering student based in GTA 🏫. I enjoy learning new skills and working on software & hardware projects 🕹️. I have worked on several individual 👤 & group 👥 projects in a professional environment, and I believe that I can bring many ideas to fruition, thanks to the skills I have developed through them. While being a strong academic 📚, I am also a professional Dancer🕺and an Artist 🧑‍🎨. Using my solid understanding of the concepts I have learned in my courses so far combined with my experience as an all-around individual, I continue to become a better version of myself 🦾.
 
