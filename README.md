@@ -5,7 +5,7 @@
 
 I'm Gaurav Divecha and I am a Computer Engineering student based in GTA 🏫. I enjoy learning new skills and working on software & hardware projects 🕹️. I have worked on several individual 👤 & group 👥 projects in a professional environment, and I believe that I can bring many ideas to fruition, thanks to the skills I have developed through them. While being a strong academic 📚, I am also a professional Dancer🕺and an Artist 🧑‍🎨. Using my solid understanding of the concepts I have learned in my courses so far combined with my experience as an all-around individual, I continue to become a better version of myself 🦾.
 
-Skills: Java | C | JavaFX | HTML | Arduino
+Skills: Java | Python | C | JavaFX | HTML | Arduino
 
 - 🔭 I’m currently working on a remote-controlled drone with some of my friends 
 - 🌱 I’m currently learning python and HTML 
