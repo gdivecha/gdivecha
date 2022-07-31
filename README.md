@@ -1,5 +1,6 @@
 <h1 align="center">Hi ✌️, I'm Gaurav Divecha</h1>
-<h3 align="center">Tech Enthusiast 😎| Thriving Computer Engineering Student 🤓| Innovator 🤖|</h3>
+<h3 align="center">Tech Enthusiast 😎| Thriving Computer Engineering Student 🤓| Innovator 🤖|</h3> 
+<br/>
 
 ![image_6487327](https://user-images.githubusercontent.com/91444858/165878548-c7976160-2387-40be-98aa-849b3c30e196.JPG)
 
