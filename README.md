@@ -7,7 +7,7 @@ I'm Gaurav Divecha and I am a Computer Engineering student based in GTA 🏫. I 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=gdivecha&label=Profile%20views&color=0e75b6&style=flat" alt="gdivecha" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=gdivecha" alt="gdivecha" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src="https://github-profile-trophy.vercel.app/?username=gdivecha" alt="gdivecha" /></a> </p>
 
 - 🔭 I’m currently working on **College Portal**
 
