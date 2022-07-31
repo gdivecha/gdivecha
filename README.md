@@ -3,11 +3,11 @@
 
 ![image_6487327](https://user-images.githubusercontent.com/91444858/165878548-c7976160-2387-40be-98aa-849b3c30e196.JPG)
 
-I'm Gaurav Divecha and I am a Computer Engineering student based in GTA 🏫. I enjoy learning new skills and working on software & hardware projects 🕹️. I have worked on several individual 👤 & group 👥 projects in a professional environment, and I believe that I can bring many ideas to fruition, thanks to the skills I have developed through them. While being a strong academic 📚, I am also a professional Dancer🕺and an Artist 🧑‍🎨. Using my solid understanding of the concepts I have learned in my courses so far combined with my experience as an all-around individual, I continue to become a better version of myself 🦾.
-
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=gdivecha&label=Profile%20views&color=0e75b6&style=flat" alt="gdivecha" /> </p>
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src="https://github-profile-trophy.vercel.app/?username=gdivecha" alt="gdivecha" /></a> </p>
+
+I'm Gaurav Divecha and I am a Computer Engineering student based in GTA 🏫. I enjoy learning new skills and working on software & hardware projects 🕹️. I have worked on several individual 👤 & group 👥 projects in a professional environment, and I believe that I can bring many ideas to fruition, thanks to the skills I have developed through them. While being a strong academic 📚, I am also a professional Dancer🕺and an Artist 🧑‍🎨. Using my solid understanding of the concepts I have learned in my courses so far combined with my experience as an all-around individual, I continue to become a better version of myself 🦾.
 
 - 🔭 I’m currently working on **College Portal**
 
