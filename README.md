@@ -25,7 +25,6 @@ I'm Gaurav Divecha and I am a Computer Engineering student based in GTA 🏫. I 
 - ⚡ Fun fact I am a professional artist and a dancer. In fact, I have been a semi-finalist at the CNE in 2019 for my Michael Jackson Dance Performance. Not only that, but I am also recognized as 1/12 Lifetime Junior Artists at the Waterloo Museum where I can exhibit my art.
 <br/>
 <hr style="width:80%" color="white">
-<br/>
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://codepen.io/gdivecha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="gdivecha" height="30" width="40" /></a>
