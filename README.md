@@ -2,8 +2,6 @@
 <h3 align="center">Tech Enthusiast 😎| Thriving Computer Engineering Student 🤓| Innovator 🤖|</h3> 
 <br/>
 
-<hr style="width:80%" color="white">
-
 ![image_6487327](https://user-images.githubusercontent.com/91444858/165878548-c7976160-2387-40be-98aa-849b3c30e196.JPG)
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=gdivecha&label=Profile%20views&color=0e75b6&style=flat" alt="gdivecha" /> </p>
