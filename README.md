@@ -6,11 +6,11 @@ I'm a passionate Software Engineer with hands-on experience from Amazon, and Day
 
 ## 🧰 Tech Stack
 
-- **Languages:** C, C#, Python, Java, JavaScript, TypeScript, HTML/CSS, Kotlin
+- **Languages:** C, C#, Python, Java, JavaScript, TypeScript, HTML/CSS
 - **Frontend:** React, React Router, Material UI, Mantine UI, CloudScape UI, Next.js
-- **Backend:** Node.js, Express.js, Flask, .NET, JSP, Django, GraphQL
-- **Databases:** MongoDB, PostgreSQL, MySQL, SQLite, OracleDB, Redis
-- **DevOps & Cloud:** AWS, Docker, CI/CD, REST APIs, Kafka
+- **Backend:** Node.js, Express.js, Flask, .NET, JSP
+- **Databases:** MongoDB, PostgreSQL, MySQL, SQLite, OracleDB
+- **DevOps & Cloud:** AWS, Docker, CI/CD, REST APIs
 - **Tools:** Git, Jira, Figma, Postman, Firebase, VS Code
 - **AI/ML:** TensorFlow, Jupyter Notebook, Matplotlib
 
