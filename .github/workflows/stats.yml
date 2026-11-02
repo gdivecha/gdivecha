@@ -1,0 +1,29 @@
+name: Update profile stats
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/stats/**"
+      - ".github/workflows/stats.yml"
+permissions:
+  contents: write
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install fonts
+        run: npm install --no-save @fontsource/poppins @fontsource/inter
+      - name: Generate cards
+        run: python .github/stats/gen_stats.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/langs-card.svg assets/activity-card.svg
+          git diff --cached --quiet || (git commit -m "Update profile stats" && git push)
