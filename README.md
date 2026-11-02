@@ -20,7 +20,7 @@ Hey, I'm Gaurav 👋 New grad software engineer from TMU with two Amazon and thr
 
 <br/>
 
-<img src="assets/h-projects-v3.svg" alt="Favourite projects" width="100%" />
+<img src="assets/h-projects-v6.svg" alt="Favourite projects" width="100%" />
 
 <br/>
 
@@ -46,7 +46,7 @@ Hey, I'm Gaurav 👋 New grad software engineer from TMU with two Amazon and thr
 
 <br/>
 
-<img src="assets/h-exp-v4.svg" alt="Where I've worked" width="100%" />
+<img src="assets/h-exp-v6.svg" alt="Where I've worked" width="100%" />
 
 <br/>
 
@@ -58,7 +58,7 @@ Hey, I'm Gaurav 👋 New grad software engineer from TMU with two Amazon and thr
 
 <br/>
 
-<img src="assets/h-skills-v3.svg" alt="Toolkit" width="100%" />
+<img src="assets/h-skills-v6.svg" alt="Toolkit" width="100%" />
 
 <br/>
 
@@ -72,7 +72,7 @@ Right now I'm working toward the **AWS Certified Solutions Architect – Associa
 
 <br/>
 
-<img src="assets/h-stats-v3.svg" alt="GitHub stats" width="100%" />
+<img src="assets/h-stats-v6.svg" alt="GitHub stats" width="100%" />
 
 <br/>
 
