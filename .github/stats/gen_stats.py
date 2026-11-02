@@ -7,7 +7,7 @@ from xml.sax.saxutils import escape as esc
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.abspath(os.path.join(HERE, "..", "..", "assets"))
 BASE, ACC, DEEP, SOFT, INK, INK2, FAINT, TEAL, EDGE, CELL = "#0d0d14", "#6d5fe8", "#4b3dc4", "#a79ff0", "#f2f1f8", "#a8a4c0", "#5c5878", "#4ecdc4", "#2a2840", "#1a1a26"
-PAL = [SOFT, ACC, TEAL, DEEP, "#8b83e8", "#2f9e97", "#c9c5ee", FAINT]
+PAL = [SOFT, ACC, TEAL, DEEP, "#8b83e8", "#2f9e97", "#c9c5ee", FAINT, "#7f77d9", "#3aa8a0", "#5d54c9", "#9a93b8"]
 LEVELS = [CELL, "#3a3470", DEEP, ACC, SOFT]
 FD = os.path.join(os.getcwd(), "node_modules", "@fontsource")
 b64 = lambda n: base64.b64encode(open(os.path.join(FD, n), "rb").read()).decode()
@@ -28,7 +28,7 @@ def title(t, x=28, y=40): return f'<text class="t" x="{x}" y="{y}" font-size="18
 def fmt(n): return f"{n:,}"
 
 def build(d):
-    langs = sorted(d["langs"].items(), key=lambda kv: -kv[1])[:8]; tot = sum(v for _, v in langs)
+    langs = sorted(d["langs"].items(), key=lambda kv: -kv[1])[:12]; tot = sum(v for _, v in langs)
     b = [title("Top languages")]
     if not tot:
         b.append(f'<text class="b" x="28" y="100" font-size="14" fill="{INK2}">Updating, check back in a minute.</text>')
@@ -39,8 +39,9 @@ def build(d):
             w = bw * v / tot; b.append(f'<rect x="{x:.1f}" y="60" width="{w+.5:.1f}" height="10" fill="{PAL[i]}"/>'); x += w
         b.append("</g>")
         for i, (n, v) in enumerate(langs):
-            cx = 28 + (i % 2) * 220; cy = 102 + (i // 2) * 24
-            b.append(f'<circle cx="{cx+5}" cy="{cy-4}" r="5" fill="{PAL[i]}"/><text class="b" x="{cx+18}" y="{cy}" font-size="13" fill="{INK}">{esc(n)}</text><text class="b" x="{cx+196}" y="{cy}" font-size="13" fill="{INK2}" text-anchor="end">{100*v/tot:.1f}%</text>')
+            cx = 28 + (i % 3) * 148; cy = 102 + (i // 3) * 26
+            nm = n if len(n) <= 11 else n[:10] + "."
+            b.append(f'<circle cx="{cx+5}" cy="{cy-4}" r="4.5" fill="{PAL[i]}"/><text class="b" x="{cx+16}" y="{cy}" font-size="12" fill="{INK}">{esc(nm)}</text><text class="b" x="{cx+128}" y="{cy}" font-size="11" fill="{INK2}" text-anchor="end">{100*v/tot:.1f}%</text>')
     card("langs-card.svg", 495, 195, "Top languages", "".join(b))
     # contribution calendar
     weeks = d["days"][-53:]; W = 1000; gap = 3; cw = (W - 56 - gap * (len(weeks) - 1)) / len(weeks); H = int(84 + 7 * (cw + gap) + 24)
