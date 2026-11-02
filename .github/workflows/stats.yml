@@ -19,7 +19,7 @@ jobs:
       - name: Generate cards
         run: python .github/stats/gen_stats.py
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
       - name: Commit if changed
         run: |
