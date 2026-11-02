@@ -59,7 +59,7 @@ def build(d):
 LANGS = "languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}"
 Q = """query($u:String!){user(login:$u){
 contributionsCollection{contributionCalendar{weeks{contributionDays{contributionCount}}}}
-repositories(ownerAffiliations:OWNER,isFork:false,first:100){nodes{nameWithOwner %s}}
+repositories(ownerAffiliations:[OWNER,COLLABORATOR],isFork:false,first:100){nodes{nameWithOwner %s}}
 repositoriesContributedTo(first:100,includeUserRepositories:false,contributionTypes:[COMMIT,PULL_REQUEST,REPOSITORY]){nodes{nameWithOwner %s}}}}""" % (LANGS, LANGS)
 
 def fetch(user, token):
@@ -71,6 +71,8 @@ def fetch(user, token):
         if r["nameWithOwner"] in seen: continue
         seen.add(r["nameWithOwner"]); edges = r["languages"]["edges"]; tot = sum(e["size"] for e in edges)
         for e in edges: langs[e["node"]["name"]] += e["size"] / tot
+    print("repos read:", len(seen), "| token kind:", "personal" if os.environ.get("GH_TOKEN", "").startswith("ghp_") else "built-in/other")
+    print("languages found:", sorted(langs, key=lambda k: -langs[k]))
     days = [[x["contributionCount"] for x in w["contributionDays"]] + [0] * (7 - len(w["contributionDays"])) for w in u["contributionsCollection"]["contributionCalendar"]["weeks"]]
     return dict(langs=dict(langs), days=days)
 
